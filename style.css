@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+body {
+  background-color: hsl(315, 32%, 85%);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8d7da;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #8b4160;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+nav ul li {
+  font-family: "Bree Serif", serif;
+  color: #8b4160;
+  font-size: 20px;
+  padding: 30px 50px 30px 50px;
+}
+
+p a{
+  text-decoration: none;
+  color: #8b4160;
+}
+
+h1 {
+  font-family: "Caprasimo", cursive;
+  color: #8b4160;
+  font-size: 50px;
+}
+
+.vendidos img {
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  height: 40vh;
+}
+.no-underline{
+  text-decoration: none;
+}
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+
+}
+.ventas{
+  background-color: #e8d7da;
+}
+
+.opciones button a{
+ text-decoration: none;
+ color: #8b4160;
+}
+.precios{
+  align-items: center;
+  padding: 100px 50px 100px 50px;
+}
